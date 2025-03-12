@@ -5,6 +5,9 @@ The BlockBolt SDK for the Monad Wallet offers a streamlined and efficient way to
 ## Features
 
 - Simple payment SDK for Monad blockchain using BlockBolt
+- Fully Decentralized – No intermediaries, ensuring trustless and secure transactions
+- Blockchain-Verified Transactions – Every payment is recorded on-chain for transparency
+- QR Code Payments – Users can pay without connecting their wallets, preventing phishing and wallet-draining attacks.
 - Built with Viem for modern TypeScript support
 - Full transaction receipt access
 - Explorer URL generation
