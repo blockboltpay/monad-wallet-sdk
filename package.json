@@ -1,0 +1,47 @@
+{
+  "name": "@blockbolt/monad-wallet",
+  "version": "1.0.0",
+  "description": "BlockBolt package for Monad wallet",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "monad",
+    "blockchain",
+    "sdk",
+    "typescript",
+    "Decentralized Payment Gateway",
+    "Crypto Payment",
+    "BlockBolt Protocol",
+    "BoltPay",
+    "MONAD"
+  ],
+  "author": "Blockbolt Protocol <support@blockbolt.io>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockBoltProtocol/monad-wallet-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BlockBoltProtocol/monad-wallet-sdk/issues"
+  },
+  "homepage": "https://github.com/BlockBoltProtocol/monad-wallet-sdk#readme",
+  "dependencies": {
+    "viem": "^2.23.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
