@@ -10,6 +10,18 @@ The BlockBolt SDK for the Monad Wallet offers a streamlined and efficient way to
 - Explorer URL generation
 - Comprehensive error handling
 
+## Technical Implementation
+
+Our system connects mobile wallets and merchant websites for payment verification on the Monad Blockchain without intermediaries. Customers pay via their mobile wallets, and order details are stored directly on the Monad blockchain. The merchant website verifies the payment by matching the receiver's wallet address, amount, and order ID with the merchant's details from the QR code. This fully decentralized approach eliminates the need for third-party verification, ensuring secure and trustless transactions.
+
+![Blockbolt Payment Process](https://github.com/user-attachments/assets/24e06120-9c41-474b-b96d-baa3d34d6384)
+
+To make integration easy, we’ve released an open-source SDK for mobile wallets: 
+https://www.npmjs.com/package/@blockbolt/monad-wallet
+
+![Blockbolt Wallet Flow - Monad Blockchain](https://github.com/user-attachments/assets/281d99b3-c9de-4596-96ac-c4f81c704714)
+
+
 ## Installation
 
 ```bash
@@ -170,6 +182,13 @@ npm run build
 ```bash
 npm test
 ```
+
+## Demo
+
+- Demo Website: https://store.blockbolt.io/mocha
+- Demo Payment with 'Wallet Connect' on Monad Testnet: https://www.youtube.com/watch?v=O_g8IyKgtWM
+- Demo Payment with 'QR Code' on Monad Testnet: https://www.youtube.com/watch?v=UWCOL1jtUn8
+- Demo Wallet for Monad Testnet: https://blockbolt-evm.vercel.app/
 
 ## License
 
