@@ -16,11 +16,14 @@ Our system connects mobile wallets and merchant websites for payment verificatio
 
 ![Blockbolt Payment Process](https://github.com/user-attachments/assets/24e06120-9c41-474b-b96d-baa3d34d6384)
 
-To make integration easy, we’ve released an open-source SDK for mobile wallets: 
-https://www.npmjs.com/package/@blockbolt/monad-wallet
+## BlockBolt Wallet SDK
+
+The BlockBolt Wallet SDK streamlines integration with the Monad Blockchain, allowing developers to easily enable decentralized payments in their mobile wallets. It handles everything from establishing network connections to creating and verifying transactions — all without intermediaries. This ensures a fast, secure, and trustless payment experience for both merchants and consumers.
 
 ![Blockbolt Wallet Flow - Monad Blockchain](https://github.com/user-attachments/assets/281d99b3-c9de-4596-96ac-c4f81c704714)
 
+To make integration easy, we’ve released an open-source SDK for mobile wallets: 
+https://www.npmjs.com/package/@blockbolt/monad-wallet
 
 ## Installation
 
